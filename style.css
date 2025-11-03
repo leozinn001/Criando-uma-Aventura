@@ -1,4 +1,25 @@
 body { 
+
     background-color: black(64, 4, 94);
     color: white;
+    font-family: "Bai Jamjurre", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
 }   
+
+button{
+    background-color: rgb(179, 187, 187);
+    color: black(0, 2, 4);
+    font-family: "Bai Janjurre", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo{
+    display:block;
+}
